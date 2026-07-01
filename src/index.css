@@ -1,0 +1,39 @@
+/* ============ BASE ============ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============ BASE & COMPLETE RESET ============ */
+html, body {
+  background-color: #0a1628 !important; /* Forces the entire browser frame to match your UI blue */
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-height: 100vh !important;
+  overflow: hidden !important; /* Hard-kills any scrolling or extra trailing page space */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============ FULL WEB APP WINDOW LAYOUT ============ */
+.web-app-window {
+  width: 100vw !important;
+  height: 100vh !important;
+  background-color: #0a1628 !important; /* Locks the exact same tone corner-to-corner */
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 20px;
+  position: fixed !important; /* Locks the application viewport over the entire window space */
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+}
