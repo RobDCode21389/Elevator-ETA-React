@@ -68,4 +68,17 @@ ETA calculations use real cruise ship traffic research across 12 time windows:
 - Props and callback props for component communication
 - Conditional rendering for screen transitions
 
-## 🏗️ Architecture
+## 🚢 Inspired By
+Royal Caribbean's KONE Destination Dispatch system, first deployed on 
+Icon of the Seas in 2024 and currently running on Utopia of the Seas. 
+The real system achieved a 30% reduction in average wait time and 50% 
+reduction in average time to destination through intelligent passenger 
+grouping by destination floor.
+
+## 🔗 Original Vanilla JS Version
+[Elevator-ETA (vanilla JS)](https://github.com/RobDCode21389/Elevator-eta-simulation)
+
+## 👤 Author
+Robert Davis
+- Portfolio: [Your portfolio URL](https://robertdavis-front-end-developer.netlify.app/)
+- GitHub: [@RobDCode21389](https://github.com/RobDCode21389)
